@@ -146,12 +146,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\boost_obj.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\common.h" />
-    <ClInclude Include="unblockme.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\occupancymatrix.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\rinfo_hash.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\unblockme_base.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\unblockme_sys.h" />
+    <ClInclude Include="rmove.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\rect.h" />
+    <ClInclude Include="unblockme_opt.h" />
     <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\stdafx.h" />
     <ClInclude Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\boost_obj.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\occupancymatrix.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\rect.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\rinfo_hash.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\rmove.cpp" />
     <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -159,6 +169,12 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\unblockme.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\unblockme_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\unblockme_opt.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\unblockme_sys.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\My Pug%27s Stuff\OneDrive\Main repository\WorkBunny\Random LOLs\unblockme\unblockme\ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

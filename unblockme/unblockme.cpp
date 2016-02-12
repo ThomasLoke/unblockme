@@ -1,5 +1,7 @@
 #include "stdafx.h"
-#include "unblockme.h"
+
+#include "unblockme_sys.h"
+#include "unblockme_opt.h"
 using namespace std;
 
 // Converts a given duration into seconds. Warning: This is a bittt unsafe, so be careful!
